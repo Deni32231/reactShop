@@ -18,6 +18,10 @@ const ProductList: FC<ProductListProps> = ({ products }) => {
     pagesList.push(i + 1);
   }
 
+  useEffect(() => {
+    setIndexPage(1);
+  }, [products]);
+
   return (
     <div>
       <div className={styles.wrapper}>
