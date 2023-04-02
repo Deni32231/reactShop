@@ -153,7 +153,6 @@
 
 .mobile_header {
   display: none;
-  margin-bottom: 30px;
 }
 
 .mobile_header a {
@@ -199,5 +198,6 @@
     display: block;
     padding: 20px 0;
     border-bottom: 1px solid #3f4e65;
+    margin-bottom: 30px;
   }
 }
