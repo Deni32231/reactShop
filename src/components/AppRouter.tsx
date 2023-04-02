@@ -10,10 +10,6 @@ const AppRouter = () => {
       {routes.map((route) => (
         <Route path={route.path} element={<route.element />} key={route.path} />
       ))}
-      <Route
-        path="*"
-        element={<Navigate to={RouteNames.ADMIN_PANEL} replace />}
-      />
     </Routes>
   );
 };
