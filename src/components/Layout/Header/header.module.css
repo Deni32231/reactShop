@@ -152,7 +152,7 @@
 }
 
 .mobile_header {
-  display: block;
+  display: none;
   margin-bottom: 30px;
 }
 
