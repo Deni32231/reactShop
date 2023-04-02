@@ -10,10 +10,10 @@ export interface IRoute {
 }
 
 export enum RouteNames {
-  ADMIN_PANEL = "/admin",
-  BASKET = "/basket",
-  CATALOG = "/catalog",
-  PRODUCT_ID = "/product/:id",
+  ADMIN_PANEL = "/shopBuild/admin",
+  BASKET = "/shopBuild/basket",
+  CATALOG = "/shopBuild/catalog",
+  PRODUCT_ID = "/shopBuild/product/:id",
 }
 
 export const routes: IRoute[] = [
