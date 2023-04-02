@@ -1,7 +1,7 @@
 {
   "name": "shop",
   "version": "0.1.0",
-  "homepage": "https://Deni32231.github.io/shopBuild",
+  "homepage": "https://Deni32231.github.io/shopBuild/",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.3",
