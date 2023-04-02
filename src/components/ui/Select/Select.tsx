@@ -35,7 +35,7 @@ const Select: FC<SelectProps> = ({ options, callBack }) => {
               ? ""
               : styles.reverse
           }`}
-          src="./img/sorting.svg"
+          src=".img/sorting.svg"
           alt=""
         />
       </div>
@@ -63,7 +63,7 @@ const Select: FC<SelectProps> = ({ options, callBack }) => {
                   ? ""
                   : styles.reverse
               }`}
-              src="./img/sorting.svg"
+              src=".img/sorting.svg"
               alt=""
             />
           </span>

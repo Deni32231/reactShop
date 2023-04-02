@@ -1,6 +1,6 @@
 [
     {
-        "urlImg": "/img/product1.png",
+        "urlImg": "img/product1.png",
         "name": "Ср-во для мытья посуды Апельсин+мята",
         "sizeType": "bottle",
         "size": "450 мл",
@@ -12,7 +12,7 @@
         "typeOfCare": ["Уход за руками", "Уход за руками", "Уход за ногами","Средства для бритья"]
     },
     {
-        "urlImg": "/img/product2.png",
+        "urlImg": "img/product2.png",
         "name": "Автмат Гель СМС жидкое в растворимых капсулах Liquid Capsules Горный родник",
         "sizeType": "bottle",
         "size": "450 мл",
@@ -24,7 +24,7 @@
         "typeOfCare": ["Уход за руками", "Уход за ногами"]
     },
     {
-        "urlImg": "/img/product3.png",
+        "urlImg": "img/product3.png",
         "name": "аСр-во для мытья посуды Апельсин+мята",
         "sizeType": "bottle",
         "size": "450 мл",
@@ -36,7 +36,7 @@
         "typeOfCare": ["Уход за руками"]
     },
     {
-        "urlImg": "/img/product4.png",
+        "urlImg": "img/product4.png",
         "name": "аСр-во для мытья посуды Апельсин+мята",
         "sizeType": "bottle",
         "size": "450 мл",
@@ -48,7 +48,7 @@
         "typeOfCare": ["Уход за руками", "Бумажная продукция"]
     },
     {
-        "urlImg": "/img/product1.png",
+        "urlImg": "img/product1.png",
         "name": "аСр-во для мытья посуды Апельсин+мята",
         "sizeType": "bottle",
         "size": "450 мл",
@@ -60,7 +60,7 @@
         "typeOfCare": ["Уход за руками"]
     },
     {
-        "urlImg": "/img/product1.png",
+        "urlImg": "img/product1.png",
         "name": "Автмат Гель СМС жидкое в растворимых капсулах Liquid Capsules Горный родник",
         "sizeType": "bottle",
         "size": "450 мл",
@@ -72,7 +72,7 @@
         "typeOfCare": ["Уход за руками"]
     },
     {
-        "urlImg": "/img/product2.png",
+        "urlImg": "img/product2.png",
         "name": "аааСр-во для мытья посуды Апельсин+мята",
         "sizeType": "bottle",
         "size": "450 мл",
@@ -84,7 +84,7 @@
         "typeOfCare": ["Уход за руками"]
     },
     {
-        "urlImg": "/img/product3.png",
+        "urlImg": "img/product3.png",
         "name": "ааСр-во для мытья посуды Апельсин+мята",
         "sizeType": "bottle",
         "size": "450 мл",
@@ -96,7 +96,7 @@
         "typeOfCare": ["Уход за руками"]
     },
     {
-        "urlImg": "/img/product4.png",
+        "urlImg": "img/product4.png",
         "name": "бббСр-во для мытья посуды Апельсин+мята",
         "sizeType": "bottle",
         "size": "450 мл",
@@ -108,7 +108,7 @@
         "typeOfCare": ["Уход за руками", "Подарочные наборы"]
     },
     {
-        "urlImg": "/img/product1.png",
+        "urlImg": "img/product1.png",
         "name": "аСр-во для мытья посуды Апельсин+мята",
         "sizeType": "bottle",
         "size": "450 мл",
@@ -120,7 +120,7 @@
         "typeOfCare": ["Уход за руками"]
     },
     {
-        "urlImg": "/img/product1.png",
+        "urlImg": "img/product1.png",
         "name": "зззСр-во для мытья посуды Апельсин+мята",
         "sizeType": "bottle",
         "size": "450 мл",
@@ -132,7 +132,7 @@
         "typeOfCare": ["Уход за руками", "Уход за ногами"]
     },
     {
-        "urlImg": "/img/product2.png",
+        "urlImg": "img/product2.png",
         "name": "ыСр-во для мытья посуды Апельсин+мята",
         "sizeType": "bottle",
         "size": "450 мл",
@@ -144,7 +144,7 @@
         "typeOfCare": ["Уход за ногами"]
     },
     {
-        "urlImg": "/img/product3.png",
+        "urlImg": "img/product3.png",
         "name": "уСр-во для мытья посуды Апельсин+мята",
         "sizeType": "bottle",
         "size": "450 мл",
@@ -156,7 +156,7 @@
         "typeOfCare": ["Уход за руками"]
     },
     {
-        "urlImg": "/img/product4.png",
+        "urlImg": "img/product4.png",
         "name": "чСр-во для мытья посуды Апельсин+мята",
         "sizeType": "bottle",
         "size": "15 мл",
@@ -168,7 +168,7 @@
         "typeOfCare": ["Средства для загара"]
     },
     {
-        "urlImg": "/img/product1.png",
+        "urlImg": "img/product1.png",
         "name": "пСр-во для мытья посуды Апельсин+мята",
         "sizeType": "bottle",
         "size": "150 мл",
@@ -180,7 +180,7 @@
         "typeOfCare": ["Уход за руками"]
     },
     {
-        "urlImg": "/img/product1.png",
+        "urlImg": "img/product1.png",
         "name": "аСр-во для мытья посуды Апельсин+мята",
         "sizeType": "bottle",
         "size": "450 мл",
@@ -192,7 +192,7 @@
         "typeOfCare": ["Уход за руками"]
     },
     {
-        "urlImg": "/img/product1.png",
+        "urlImg": "img/product1.png",
         "name": "аСр-во для мытья посуды Апельсин+мята",
         "sizeType": "bottle",
         "size": "450 мл",
@@ -204,7 +204,7 @@
         "typeOfCare": ["Уход за руками"]
     },
     {
-        "urlImg": "/img/product1.png",
+        "urlImg": "img/product1.png",
         "name": "шСр-во для мытья посуды Апельсин+мята",
         "sizeType": "bottle",
         "size": "200 мл",
@@ -216,7 +216,7 @@
         "typeOfCare": ["Уход за руками"]
     },
     {
-        "urlImg": "/img/product1.png",
+        "urlImg": "img/product1.png",
         "name": "ггСр-во для мытья посуды Апельсин+мята",
         "sizeType": "bottle",
         "size": "3000 мл",
@@ -228,7 +228,7 @@
         "typeOfCare": ["Уход за руками"]
     },
     {
-        "urlImg": "/img/product1.png",
+        "urlImg": "img/product1.png",
         "name": "ббббббббСр-во для мытья посуды Апельсин+мята",
         "sizeType": "bottle",
         "size": "500 мл",

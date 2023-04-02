@@ -13,7 +13,7 @@ const BasketWidget = () => {
     <div className={styles.basket}>
       <div className={styles.basketCount}>
         <Link to={RouteNames.BASKET}>
-          <img src="/img/basket_icon.svg" alt="basket" />
+          <img src="img/basket_icon.svg" alt="basket" />
           <span className={styles.itemsCount}>{count}</span>
         </Link>
       </div>

@@ -13,19 +13,19 @@ const Header: FC = () => {
       <header className={styles.mobile_header}>
         <Container>
           <div className={styles.mobile_top}>
-            <img src="/img/burger.svg" alt="burger" />
-            <img src="/img/header_logo.svg" alt="logo" />
+            <img src="img/burger.svg" alt="burger" />
+            <img src="img/header_logo.svg" alt="logo" />
             <BasketWidget />
           </div>
           <div className={styles.mobile_bottom}>
             <div className={styles.mobile_bottom_block}>
               <Link to={RouteNames.CATALOG}>
-                <img src="/img/mobileCatalog.svg" alt="" />
+                <img src="img/mobileCatalog.svg" alt="" />
                 <span>Каталог</span>
               </Link>
             </div>
             <div className={styles.mobile_bottom_block}>
-              <img src="/img/mobileSearch.svg" alt="" />
+              <img src="img/mobileSearch.svg" alt="" />
               <span>Поиск</span>
             </div>
           </div>
@@ -38,7 +38,7 @@ const Header: FC = () => {
               <div className={styles.location}>
                 <img
                   className={styles.location_marker}
-                  src="/img/marker.svg"
+                  src="img/marker.svg"
                   alt="marker"
                 />
                 <div className={styles.location__text}>
@@ -53,7 +53,7 @@ const Header: FC = () => {
               <div className={styles.email}>
                 <img
                   className={styles.email_img}
-                  src="/img/mail.svg"
+                  src="img/mail.svg"
                   alt="mail"
                 />
                 <div className={styles.email__text}>
@@ -79,14 +79,14 @@ const Header: FC = () => {
         <hr className={styles.line} />
         <Container>
           <div className={styles.bottom}>
-            <img src="/img/header_logo.svg" alt="султан" />
+            <img src="img/header_logo.svg" alt="султан" />
             <Button>
               <Link to={RouteNames.CATALOG} className={styles.catalogBtn_link}>
                 <div className={styles.catalogBtn}>
                   Каталог
                   <img
                     className={styles.catalogBtn_img}
-                    src="/img/button_catalog.svg"
+                    src="img/button_catalog.svg"
                     alt=""
                   />
                 </div>
@@ -101,14 +101,14 @@ const Header: FC = () => {
                 </span>
                 <span className={styles.phone_btn}>Заказать звонок</span>
               </div>
-              <img src="/img/woman_phone.png" alt="woman" />
+              <img src="img/woman_phone.png" alt="woman" />
             </div>
             <Button>
               <div className={styles.downloadBtn}>
                 <span className={styles.downloadBtn_text}>Прайс-лист</span>
                 <img
                   className={styles.catalogBtn_img}
-                  src="/img/download.svg"
+                  src="img/download.svg"
                   alt=""
                 />
               </div>

@@ -94,16 +94,12 @@ const SearchPanel: FC<SearchPanelProps> = ({
           <span onClick={() => setLookAll(!lookAll)} className={styles.lookAll}>
             {!lookAll ? (
               <>
-                Показать все <img src="./img/sorting.svg" alt="" />
+                Показать все <img src=".img/sorting.svg" alt="" />
               </>
             ) : (
               <>
                 Скрыть все{" "}
-                <img
-                  className={styles.reverse}
-                  src="./img/sorting.svg"
-                  alt=""
-                />
+                <img className={styles.reverse} src=".img/sorting.svg" alt="" />
               </>
             )}
           </span>

@@ -32,7 +32,7 @@ const ProductBlock: FC<IProductBlockProps> = ({ product }) => {
         <div className={styles.size_wrapper}>
           <img
             src={
-              product.sizeType === "bottle" ? "/img/bottle.svg" : "/img/box.svg"
+              product.sizeType === "bottle" ? "img/bottle.svg" : "img/box.svg"
             }
             alt="bottle"
           />
@@ -69,13 +69,13 @@ const ProductBlock: FC<IProductBlockProps> = ({ product }) => {
               className={styles.button_inner}
             >
               <span className={styles.button_text}>В КОРЗИНУ</span>
-              <img src="/img/card_basket.svg" alt="basket" />
+              <img src="img/card_basket.svg" alt="basket" />
             </div>
           </Button>
         </div>
         <div className={styles.helpBtns}>
           <div className={styles.helpBlock}>
-            <img src="/img/share.svg" alt="share" />
+            <img src="img/share.svg" alt="share" />
           </div>
           <div className={styles.helpBlock}>
             <span className={styles.helpBlock__text}>
@@ -85,7 +85,7 @@ const ProductBlock: FC<IProductBlockProps> = ({ product }) => {
           </div>
           <div className={styles.helpBlock}>
             <span className={styles.helpBlock__priceText}>Прайс-лист</span>
-            <img src="/img/downloadProduct.svg" alt="download" />
+            <img src="img/downloadProduct.svg" alt="download" />
           </div>
         </div>
         <div className={styles.firstInfo}>
@@ -129,7 +129,7 @@ const ProductBlock: FC<IProductBlockProps> = ({ product }) => {
           >
             Описание
           </span>
-          <img src="/img/sorting.svg" alt="\/" />
+          <img src="img/sorting.svg" alt="\/" />
           <div
             className={`${styles.description_wrapper} ${
               showDescription ? "" : styles.hidden
@@ -145,7 +145,7 @@ const ProductBlock: FC<IProductBlockProps> = ({ product }) => {
           >
             Характеристики
           </span>
-          <img src="/img/sorting.svg" alt="\/" />
+          <img src="img/sorting.svg" alt="\/" />
           <div
             className={`${styles.characteristics_wrapper} ${
               showCharacteristics ? "" : styles.hidden

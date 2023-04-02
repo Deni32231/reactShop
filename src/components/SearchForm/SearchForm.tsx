@@ -25,7 +25,7 @@ const SearchForm: FC<ISearchFormProps> = ({ callBack }) => {
           callBack(value);
         }}
       >
-        <img className={styles.searchImg} src="/img/search.svg" alt="search" />
+        <img className={styles.searchImg} src="img/search.svg" alt="search" />
       </Button>
     </form>
   );

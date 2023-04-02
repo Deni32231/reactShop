@@ -36,9 +36,7 @@ const ProductCard: FC<ProductCardProps> = ({ product }) => {
           <img
             className={styles.sizeType}
             src={
-              product.sizeType == "bottle"
-                ? "./img/bottle.svg"
-                : "./img/box.svg"
+              product.sizeType == "bottle" ? ".img/bottle.svg" : ".img/box.svg"
             }
             alt={product.sizeType}
           />
@@ -72,7 +70,7 @@ const ProductCard: FC<ProductCardProps> = ({ product }) => {
               className={styles.button_inner}
             >
               <span className={styles.button_text}>В КОРЗИНУ</span>
-              <img src="/img/card_basket.svg" alt="basket" />
+              <img src="img/card_basket.svg" alt="basket" />
             </div>
           </Button>
         </div>

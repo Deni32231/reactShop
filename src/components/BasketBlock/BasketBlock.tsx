@@ -29,7 +29,7 @@ const BasketBlock = () => {
               <img src={item.product.urlImg} alt={item.product.name} />
             </div>
             <div className={styles.item_info}>
-              <img src="/img/bottle.svg" alt="bottle" />
+              <img src="img/bottle.svg" alt="bottle" />
               <span className={styles.item_size}>{item.product.size}</span>
               <p className={styles.item_name}>
                 {item.product.brand} {item.product.name}
@@ -62,7 +62,7 @@ const BasketBlock = () => {
                   onClick={() => dispatch(deleteItem(item.product))}
                   className={styles.delete_wrapper}
                 >
-                  <img src="/img/delete.svg" alt="delete" />
+                  <img src="img/delete.svg" alt="delete" />
                 </div>
               </Button>
             </div>
@@ -88,7 +88,7 @@ const BasketBlock = () => {
         className={`${styles.modal} ${showModal ? "" : styles.hidden}`}
       >
         <div className={styles.modal_content}>
-          <img src="/img/successfully.svg" alt="успешно" />
+          <img src="img/successfully.svg" alt="успешно" />
           <span className={styles.modal_title}>Спасибо за заказ</span>
           <span className={styles.modal_info}>
             Наш менеджер свяжется с вами в ближайшее время
@@ -97,7 +97,7 @@ const BasketBlock = () => {
             onClick={() => setShowModal(false)}
             className={styles.closeBtn}
           >
-            <img src="/img/closeBtn.svg" alt="x" />
+            <img src="img/closeBtn.svg" alt="x" />
           </button>
         </div>
       </div>

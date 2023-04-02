@@ -34,7 +34,7 @@ const ProductList: FC<ProductListProps> = ({ products }) => {
             }
           }}
         >
-          <img src="/img/arrowL.svg" alt="" />
+          <img src="img/arrowL.svg" alt="" />
         </button>
         <ul className={styles.pagination__pages}>
           {pagesList.map((page) => (
@@ -57,7 +57,7 @@ const ProductList: FC<ProductListProps> = ({ products }) => {
             }
           }}
         >
-          <img src="/img/arrowR.svg" alt="" />
+          <img src="img/arrowR.svg" alt="" />
         </button>
       </div>
     </div>

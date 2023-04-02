@@ -12,7 +12,7 @@ const Footer = () => {
       <Container>
         <div className={styles.content}>
           <div className={styles.left}>
-            <img src="/img/logo_footer.svg" alt="logo" />
+            <img src="img/logo_footer.svg" alt="logo" />
             <p className={styles.left_text}>
               Компания «Султан» — снабжаем розничные магазины товарами "под
               ключ" в Кокчетаве и Акмолинской области
@@ -31,7 +31,7 @@ const Footer = () => {
                 <div className={styles.btn_wrapper}>
                   <Button>
                     <div className={styles.email_btn}>
-                      <img src="/img/arrow.svg" alt="" />
+                      <img src="img/arrow.svg" alt="" />
                     </div>
                   </Button>
                 </div>
@@ -65,15 +65,15 @@ const Footer = () => {
                 <span className={styles.downloadBtn_text}>Прайс-лист</span>
                 <img
                   className={styles.catalogBtn_img}
-                  src="/img/download.svg"
+                  src="img/download.svg"
                   alt=""
                 />
               </div>
             </Button>
             <span className={styles.message_span}>Связь в мессенджерах:</span>
             <div className={styles.messages_wrapper}>
-              <img src="/img/wh.png" alt="" />
-              <img src="/img/tg.png" alt="" />
+              <img src="img/wh.png" alt="" />
+              <img src="img/tg.png" alt="" />
             </div>
           </div>
 
@@ -85,8 +85,8 @@ const Footer = () => {
             <span className={styles.email}>opt.sultan@mail.ru </span>
             <span className={styles.emailHelper}>На связи в любое время</span>
             <div className={styles.cards}>
-              <img src="/img/visa.png" alt="visa" />
-              <img src="/img/mastercard.png" alt="mastercard" />
+              <img src="img/visa.png" alt="visa" />
+              <img src="img/mastercard.png" alt="mastercard" />
             </div>
           </div>
         </div>
