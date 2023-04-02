@@ -36,7 +36,7 @@ const ProductCard: FC<ProductCardProps> = ({ product }) => {
           <img
             className={styles.sizeType}
             src={
-              product.sizeType == "bottle" ? ".img/bottle.svg" : ".img/box.svg"
+              product.sizeType == "bottle" ? "img/bottle.svg" : "img/box.svg"
             }
             alt={product.sizeType}
           />

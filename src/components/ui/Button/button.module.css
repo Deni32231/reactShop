@@ -6,4 +6,9 @@
   align-items: center;
   border: none;
   cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.button:hover {
+  background-color: #d59622;
 }
