@@ -5,6 +5,7 @@ import Button from "../ui/Button/Button";
 import { addItem } from "../../store/reducers/basketSlice";
 
 import styles from "./productCard.module.css";
+import { RouteNames } from "../../router";
 
 export interface IProduct {
   urlImg: string;
@@ -43,7 +44,7 @@ const ProductCard: FC<ProductCardProps> = ({ product }) => {
           <span className={styles.size}>{product.size}</span>
         </div>
         <p className={styles.fullname}>
-          <Link to={`/product/${product.barcode}`}>
+          <Link to={`${RouteNames.PRODUCT_ID.slice(0, -3)}${product.barcode}`}>
             <span className={styles.fullname_brand}>{product.brand} </span>
             {product.name}
           </Link>
